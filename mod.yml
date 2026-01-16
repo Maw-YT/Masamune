@@ -1,0 +1,103 @@
+title: Masamune 2
+description: Replaces the Kingdom Key with Sephiroth's Masamune, a blade with ridiculously long reach.
+assets:
+- name: obj\W_EX010_20.mdlx # Oblivion Replacement (Using dedicated W_EX010_20 files)
+  platform: pc
+  method: copy
+  source:
+  - name: obj\W_EX010_20.mdlx
+- name: obj\W_EX010_20_NM.mdlx
+  method: copy
+  source:
+  - name: obj\W_EX010_20.mdlx
+- name: obj\W_EX010_20_TR.mdlx
+  method: copy
+  source:
+  - name: obj\W_EX010_20.mdlx
+- name: obj\W_EX010_20_WI.mdlx
+  method: copy
+  source:
+  - name: obj\W_EX010_20.mdlx
+- name: obj\W_EX010_20.a.us # PAX Effects (Keeping original sword.pax)
+  platform: pc
+  method: binarc
+  source:
+  - name: w_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/sword.pax
+- name: obj\W_EX010_20_NM.a.us
+  platform: pc
+  method: binarc
+  source:
+  - name: w_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/sword.pax
+- name: obj\W_EX010_20_TR.a.us
+  platform: pc
+  method: binarc
+  source:
+  - name: w_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/sword.pax
+- name: obj\W_EX010_20_WI.a.us
+  platform: pc
+  method: binarc
+  source:
+  - name: w_ex
+    type: pax
+    method: copy
+    source:
+    - name: obj/sword.pax
+- name: remastered\obj\W_EX010_20.a.us\se\obj\se500 # Remastered Assets (Using W_EX010_20 internal sources)
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\se\obj\se500
+    type: internal
+- name: remastered\obj\W_EX010_20_NM.a.us\se\obj\se500
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\se\obj\se500
+    type: internal
+- name: remastered\obj\W_EX010_20_TR.a.us\se\obj\se500
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\se\obj\se500
+    type: internal
+- name: remastered\obj\W_EX010_20_WI.a.us\se\obj\se500
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\se\obj\se500
+    type: internal
+- name: remastered\obj\W_EX010_20.a.us\-0.dds # Texture Maps
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\-0.dds
+    type: internal
+- name: remastered\obj\W_EX010_20_NM.a.us\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.a.us\-0.dds
+    type: internal
+
+- name: remastered\obj\W_EX010_20.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.mdlx\-0.dds
+- name: remastered\obj\W_EX010_20_NM.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\W_EX010_20.mdlx\-0.dds
